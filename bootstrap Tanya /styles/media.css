@@ -1,0 +1,98 @@
+
+/* iPads (вертикальная) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+header{
+	background-size: 150%;
+}
+
+#fourth div img{
+  width: 60%;
+}
+
+#sixth div img{
+  width: 50%;
+}
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+
+
+#menu_stripes{
+	opacity: 0;
+}
+
+.mbutton {
+  display: flex; 
+  align-items: center; 
+  position: absolute;
+  top: 110px;
+  left: 45%;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+  background-color: #4FC3AE;
+  border: 30px solid #4FC3AE;
+  border-radius: 3px;
+}
+.mbutton > span,
+.mbutton > span::before,
+.mbutton > span::after {
+  transition-duration: .25s;
+  display: block;
+  position: absolute;
+  width: 20px;
+  left: -10px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.mbutton > span::before {
+  content: '';
+  left: 0;
+  top: -10px;
+}
+.mbutton > span::after {
+  content: '';
+  top: 10px;
+    left: 0;
+
+}
+.navigation {
+  margin: 0;
+  margin-top: 70px;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  background-color: #4FC3AE;
+  visibility: hidden;
+  flex-direction: column;
+}
+
+
+#menu_stripes:checked ~ .mbutton > span {
+  transform: rotate(45deg);
+}
+#menu_stripes:checked ~ .mbutton > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu_stripes:checked ~ .mbutton > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu_stripes:checked ~ .navigation {
+  visibility: visible;
+  left: 0;
+}
+
+header {
+	background-size: 250%;
+}
+
+}
+
+
+

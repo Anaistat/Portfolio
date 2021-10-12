@@ -1,0 +1,98 @@
+body{
+	margin: 0;
+}
+
+button{
+	border: none;
+	background: inherit;
+	cursor: pointer;
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+	margin: 10px;
+}
+
+button:hover{
+	background-color: #aae;
+}
+
+#container{
+	width: 100vw;
+	height: 100vh;
+	background-color: #434a50;
+	display: flex;
+}
+
+
+#field{
+	width: 1240px;
+	height: 700px;
+	background-color: #212a2f;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: calc(100vh - 700px) 0 0 0;
+}
+
+#instruments{
+	width: calc(100vw - 1240px);
+	height: 700px;
+	background-color: #434a50;
+	outline: 1px solid #ced8e4;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: calc(100vh - 700px) 0 0 0;
+}
+
+#canvas{
+	outline: 1px solid #ced8e4;
+	background-color: #fff;
+	width: 1000px;
+	height: 600px;
+	margin: calc(100vh - 700px) 0 0 0;
+	z-index: 10;
+}
+canvas:not(#canvas){
+	margin: calc(100vh - 700px) 0 0 0;
+	border: 1px solid red;
+	z-index: 1;
+}
+#pencil{
+	background-image: url("img/pencil.png");
+}
+
+#eraser{
+	background-image: url("img/eraser.png");
+}
+
+.color {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  padding: 1px;
+  margin: 1px;
+  cursor: pointer;
+}
+ 
+.color:hover, .lines:hover {
+  outline: solid 1px #aae;
+}
+ 
+.color:active {
+  outline: solid 1px #fff;
+}
+
+#palette, #line{
+	width: 100px;
+}
+
+.lines{
+	width: 100px;
+	padding: 1px;
+  	margin: 5px 0;
+  	cursor: pointer;
+  	background-color: #000;
+}

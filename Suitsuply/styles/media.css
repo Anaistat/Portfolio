@@ -1,0 +1,508 @@
+@media (max-width: 1224px) and (min-width: 810px){
+
+	#menu_burger:checked ~ .menu_stripes > span {
+  	transform: rotate(45deg);
+	}
+	#menu_burger:checked ~ .menu_stripes > span::before {
+	  top: 0;
+	  transform: rotate(0);
+	}
+	#menu_burger:checked ~ .menu_stripes > span::after {
+	  top: 0;
+	  transform: rotate(90deg);
+	}
+	#menu_burger:checked ~ .menu_pages {
+	  visibility: visible;
+	  left: 0;
+	}
+
+	#menu_burger:checked ~ .dark{
+		display: block;
+	}
+
+	.menu_stripes {
+	  display: flex;
+	  align-items: center;
+	  position: fixed;
+	  top: 15px;
+	  left: 15px;
+	  width: 26px;
+	  height: 26px;
+	  cursor: pointer;
+	  z-index: 100;
+	}
+
+	.menu_stripes > span,
+	.menu_stripes > span::before,
+	.menu_stripes > span::after {
+	  display: block;
+	  position: absolute;
+	  width: 100%;
+	  height: 2px;
+	  background-color: #616161;
+	  transition-duration: .25s;
+	}
+	.menu_stripes > span::before {
+	  content: '';
+	  top: -8px;
+	}
+	.menu_stripes > span::after {
+	  content: '';
+	  top: 8px;
+	}
+/*--------------------------------------------------*/
+
+
+	.menu_pages{
+		display: flex;
+		flex-direction: column;
+		position: fixed;
+		top: 0px;
+		background-color: #fff;
+		height: 100vh;
+		width: 280px;
+		padding-top: 70px;
+		z-index: 10;
+	}
+
+	.menu_pages li{
+		padding: 16px 0 16px 30px;
+	}
+
+	.menu_pages li a{
+		font-size: 12pt;
+	}
+
+	.menu_logo{
+		order: 3;
+		flex-basis: 75%;
+	}
+
+	.menu_pages{
+		order: 2;
+		visibility: hidden;
+		flex-basis: 2%;
+	}
+
+	.menu_icons{
+		order: 4;
+		flex-basis: 23%;
+	}
+
+	#banner{
+		height: 70vh;
+	}
+
+	.clothes_types{
+		height: 60vh;
+	}
+
+	.appointment{
+		height: 65vh;
+	}
+
+	.shop_now{
+		height: 70vh;
+	}
+
+	.featured{
+		height: 60vh;
+	}
+
+	.find_store{
+		height: 520px;
+	}
+
+	.perfect_fit{
+		width: 80%;
+	}
+
+	.sup_3_blocks_content_left, .sup_3_blocks_content_center,.sup_3_blocks_content_right{
+		height: 180px;
+	}
+
+	.sup_info{
+		height: 2900px;
+	}
+
+	.career_banner{
+		height: 50vh;
+	}
+
+	.vacancies_inner{
+		flex-wrap: wrap;
+		height: 280px;
+		width: 860px; 
+	}
+
+	.textImg{
+		width: 45%;
+		height: 45%;
+		margin: 10px 0;
+	}
+
+	.career_findFit{
+		width: 100%;
+	}
+
+	.career_findFit_inner{
+		width: 90%;
+	}
+
+	.career_findFit_inner img{
+		width: 50%;
+		height: 70%;
+	}
+
+	.sign_up_left, .sign_up_right{
+		width: 46%;
+	}
+
+	.sign_up_right{
+		flex-direction: column;
+	}
+
+	.sign_up_right input{
+		width: 400px !important;
+	}
+
+	.set_btn{
+		margin-top: 10px;
+		width: 400px !important;
+	}
+
+}
+
+@media (max-width: 810px) and (min-width: 320px){
+	#menu_burger:checked ~ .menu_stripes > span {
+  	transform: rotate(45deg);
+	}
+	#menu_burger:checked ~ .menu_stripes > span::before {
+	  top: 0;
+	  transform: rotate(0);
+	}
+	#menu_burger:checked ~ .menu_stripes > span::after {
+	  top: 0;
+	  transform: rotate(90deg);
+	}
+	#menu_burger:checked ~ .menu_pages {
+	  visibility: visible;
+	  left: 0;
+	}
+
+	#menu_burger:checked ~ .dark{
+		display: block;
+	}
+
+	.menu_stripes {
+	  display: flex;
+	  align-items: center;
+	  position: fixed;
+	  top: 15px;
+	  left: 15px;
+	  width: 26px;
+	  height: 26px;
+	  cursor: pointer;
+	  z-index: 100;
+	}
+
+	.menu_stripes > span,
+	.menu_stripes > span::before,
+	.menu_stripes > span::after {
+	  display: block;
+	  position: absolute;
+	  width: 100%;
+	  height: 2px;
+	  background-color: #616161;
+	  transition-duration: .25s;
+	}
+	.menu_stripes > span::before {
+	  content: '';
+	  top: -8px;
+	}
+	.menu_stripes > span::after {
+	  content: '';
+	  top: 8px;
+	}
+	.menu_pages{
+		display: flex;
+		flex-direction: column;
+		position: fixed;
+		top: 0px;
+		background-color: #fff;
+		height: 100vh;
+		width: 280px;
+		padding-top: 70px;
+		z-index: 10;
+	}
+
+	.menu_pages li{
+		padding: 16px 0 16px 30px;
+	}
+
+	.menu_pages li a{
+		font-size: 12pt;
+	}
+
+	.menu_logo{
+		order: 3;
+		flex-basis: 75%;
+	}
+
+	.menu_pages{
+		order: 2;
+		visibility: hidden;
+		flex-basis: 2%;
+	}
+
+	.menu_icons{
+		order: 4;
+		flex-basis: 23%;
+	}
+	.backet{
+		visibility: hidden; /*костыль*/
+	}
+
+	.clothes_types{
+		height: 80vh;
+	}
+
+	.jackets{
+		width: 80vw;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center
+	}
+
+	.coats, .knits{
+		display: none;
+	}
+
+	.customers img{
+		width: 120px;
+		height: 120px;
+	}
+
+	.customers img:nth-child(2){
+		margin: 0 10px;
+	}
+
+	.shop_now{
+		height: 70vh;
+	}
+
+	.featured{
+		height: 60vh;
+	}
+
+	.perfect_fit{
+		width: 90%;
+	}
+
+	.sup_left_text{
+		display: none;
+	}
+
+	.sup_banner{
+		height: 80vh;
+		background-image: url(../img/Support_banner_small.jpg);
+	}
+
+	.sup_main_text hr{
+		display: none;
+	}
+
+	.sup_main_text{
+		align-items: center;
+	}
+
+	.delivery_time{
+		height: 240px;
+		width: 150%;
+	}
+
+	.sup_3_blocks_header{
+		display: none;
+	}
+
+	.sup_3_blocks_content, .sup_3_blocks_content_footer{
+		width: 150%;
+	}
+
+	.sup_3_blocks_content_right{
+		width: 100%;
+		height: 100px;
+	}
+
+	.sup_3_blocks_content_left{
+		width: 40%;
+		height: 100px;
+		font-weight: bold;
+		font-family: IBMPlex-Regular;
+	}
+
+	.sup_3_blocks_content_center{
+		width: 60%;
+		height: 100px;
+	}
+
+	.sup_info{
+		height: 3200px;
+		flex-direction: column;
+	}
+
+	.sup_left_text{
+		display: none;
+		flex-direction: column;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background-color: #fff;
+		height: 100vh;
+		width: 380px;
+		padding: 70px 0 0 50px;
+		z-index: 10;
+	}
+
+	.delivery_mobVersion p{
+		display: flex;
+	}
+
+	.delivery_mobVersion{
+	margin-bottom: 50px;
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	display: flex;
+	}
+
+	.delivery_mobVersion:hover .sup_left_text{
+		display: flex;
+	}
+
+	.delivery_mobVersion:hover .dark{
+		display: block;
+	}
+
+	.find_store{
+		flex-direction: column;
+	}
+
+	.find_store div{
+		width: 100%;
+	}
+
+	.signe_up{
+		height: 35vh;
+	}
+
+	.fair_wear{
+		width: 30vw;
+	}
+
+	.footer_info{
+		flex-direction: column;
+		display: flex;
+	}
+
+	.footer_info div{
+		outline: 1px solid #ccc;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.footer_info ul{
+		display: none;
+	}
+
+	.career_banner{
+		height: 40vh;
+	}
+
+	.find_fit{
+		flex-direction: column;
+		width: 100%;
+		align-items: flex-start;
+	}
+
+	.find_fit div{
+		width: 100%;
+	}
+
+	.find_fit h3{
+		margin: 0 0 20px 20px;
+	}
+
+	.search{
+		width: 90% !important;
+	}
+
+	.vacancies{
+		height: 1100px;
+	}
+
+	.vacancies_inner{
+		height: 1000px;
+		justify-content: center;
+	}
+
+	.textImg{
+		width: 96%;
+		height: 15%;
+		margin: 10px 0;
+	}
+
+	.career_findFit{
+		width: 100%;
+		height: 2000px;
+	}
+
+	.career_findFit_inner:first-child{
+		flex-direction: column-reverse;
+	}
+
+	.career_findFit_inner{
+		width: 90%;
+		flex-direction: column;
+	}
+
+	.career_findFit_inner img{
+		width: 100%;
+		height: 75%;
+	}
+
+	._findFit_text{
+		width: 100%;
+		margin: 0 0 40px 0;
+	}
+
+	.career_video{
+		height: 400px;
+	}
+
+	.sign_up{
+		height: 400px;
+		flex-direction: column;
+	}
+
+	.sign_up_left{
+		width: 92%;
+	}
+
+	.sign_up_right{
+		width: 96%;
+		flex-direction: column;
+	}
+
+	.email, .set_btn{
+		width: 96% !important;
+		margin-top: 10px;
+	}
+
+}

@@ -1,0 +1,79 @@
+body{
+	margin: 0;
+}
+
+button{
+	background: inherit;
+	border: none;
+}
+
+img{
+	width: 30px;
+	height: 30px;
+}
+
+p{
+	color: white;
+	margin: 0;
+}
+
+#container{
+	width: 100vw;
+	height: 100vh;
+	background-color: #20262E;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.progressBar{
+	width: 700px;
+	height: 50px;
+	/*border: 1px solid white;*/
+	display: flex;
+	
+	align-items: center;
+}
+
+#progress{
+	width: 700px;
+}
+
+#volume{
+	width: 80px;
+}
+
+#playPause, #next, #volume{
+	margin-right: 18px;
+}
+
+#playPause{
+	background-image: url(video/img/play.png);
+}
+
+#prev{
+	background-image: url(video/img/control_left.png);
+}
+
+#next{
+	background-image: url(video/img/control_right.png);
+}
+
+#playPause, #prev, #next{
+	width: 30px;
+	height: 30px;
+	background-size: cover;
+}
+
+#series1, #series2, #series3{
+	width: 70px;
+	height: 26px;
+	border: 0.6px solid #45628a;
+	background-color: #3b5375;
+	text-align: center;
+}
+
+#series2{
+	margin: 0 10px;
+}
