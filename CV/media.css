@@ -1,0 +1,56 @@
+@media only screen and (min-width: 820px) and (max-width: 1024px) {
+
+	main{
+		width: 800px;
+	}
+
+	.my-photo img{
+		width: 220px;
+	}
+
+	.my-name h1:first-child{
+		margin-bottom: -70px;
+	}
+}
+
+@media only screen and (max-width: 820px){
+
+	main{
+		width: 100%;
+		margin: 0;
+		box-shadow: none;
+	}
+
+	main header{
+		background-color: #000000;
+		flex-wrap: wrap;
+	}
+
+	.my-photo, .my-name{
+		width: 100% !important;
+	}
+
+	.my-name h1{
+		color: #ededed;
+		margin: 0 !important;
+	}
+
+	.contact-info-block, .main-info{
+		width: 100%;
+	}
+
+	.contacts ul{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		box-sizing: border-box;
+	}
+
+	.contacts ul li, .skills > section{
+		width: 350px;
+	}
+
+	.contacts ul li:last-child{
+		display: none;
+	}
+}
