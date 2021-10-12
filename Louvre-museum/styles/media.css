@@ -1,0 +1,1574 @@
+@media (max-width: 1460px){
+
+    section > div,
+    header > div,
+    footer > div{
+        width: 984px;
+    }
+
+    /*Header*/
+    header{
+        padding: 49px 0 48px 0;
+    }
+
+    main{
+        background-size: 150%;
+    }
+
+    #burger{
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        right: 100px;
+    }
+
+    #menu-list{
+        flex-direction: column;
+        box-sizing: border-box;
+        position: absolute;
+        left: -1055px;
+        top: 130px;
+        width: 297px;
+        height: 585px;
+        padding: 35px 0 0 55px;
+        background: #030303;
+        z-index: 100;
+        transition: left 0.15s ease-out;
+    }
+
+    #menu-list ul{
+        flex-direction: column;
+    }
+
+    #menu-list > ul li a{
+        margin-left: 0;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    #menu-list > ul li span{
+        transition: color 0.15s ease-in;
+    }
+
+    #menu-list > ul li:hover span{
+        color: #9D8665;
+        transition: color 0.15s ease-out;
+    }
+
+    #menu-list span{
+        display: inline-block;
+        color: #FFFFFF;
+        font-size: 22px;
+    }
+
+    #menu-list li{
+        margin-bottom: 26px;
+        width: 120px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #menu-list li span{
+        justify-self: flex-end;
+    }
+
+    .menu-list-active{
+        left: 0px!important;
+    }
+
+    .menu-images{
+        display: none;
+    }
+
+    #menu-list .social{
+        display: none;
+    }
+
+
+    /*Welcome*/
+
+    .welcome-main-text{
+        padding-top: 50px;
+    }
+
+    .welcome-main-text h1{
+        font-size: 50px;
+        line-height: 90px;
+    }
+
+
+    .welcome-text-part{
+        width: 240px;
+    }
+
+    .welcome-bg{
+        display: flex;
+        width: 740px;
+        height: 585px;
+    }
+
+    #welcome p{
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 65px;
+    }
+
+
+    .welcome-main-text a{
+        padding: 20px 45px;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .slider{
+        width: 700px;
+        margin-top: -120px;
+    }
+
+    #welcome-slide-num{
+        margin-left: 225px;
+    }
+
+    #welcome-slide-num span{
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .slider span:nth-child(even){
+        margin: 0 6px;
+    }
+
+    #welcome-carousel{
+        margin-left: 45px;
+    }
+
+    #welcome-carousel button{
+        width: 12px;
+        height: 12px;
+    }
+
+    #welcome-arrows{
+        margin-left: 10px;
+    }
+
+    .welcome-bg:before{
+        height: 615px!important;
+    }
+
+    /*Virtual*/
+    #tour{
+        padding: 60px 0;
+    }
+
+    .virtual-tour h2{
+        font-size: 50px;
+        line-height: 75px;
+        margin-bottom: 20px;
+    }
+
+    .virtual-blocks{
+        padding: 0 108px;
+    }
+
+    .virtual-blocks > a{
+        margin-top: 60px;
+    }
+
+    .virtual-blocks img{
+        width: 330px;
+        height: 215px;
+    }
+
+    .virtual-blocks > a > h3{
+        font-size: 28px;
+        line-height: 31px;
+        letter-spacing: 3px;
+    }
+
+    .virtual-blocks > a > hr{
+        width: 150px;
+    }
+
+    .virtual-blocks > a > p{
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    /*Explore*/
+    .picture-explore{
+        padding: 60px 0;
+        flex-direction: column;
+    }
+
+    .picture-explore > div{
+        width: 100%;
+    }
+
+    .picture-explore div:last-child{
+        display: flex;
+        justify-content: center;
+    }
+
+    .picture-explore h2{
+        font-size: 50px;
+        line-height: 75px;
+    }
+
+    .picture-explore hr{
+        width: 100%;
+        margin: 20px 0 60px 0;
+    }
+
+    .picture-explore p{
+        padding: 0;
+        font-size: 20px;
+        line-height: 38px;
+    }
+
+    .picture-explore p:last-child{
+        display: none;
+    }
+
+    .picture-explore img{
+        padding-top: 60px;
+    }
+
+    .explore-slider{
+        background-image: url("../images/explore-slider.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        z-index: 10;
+        cursor: ew-resize;
+        height: 705px;
+        width: 39px;
+    }
+
+    /*Video*/
+    #video{
+        padding: 60px 0;
+    }
+
+    .video-journey h2{
+        font-size: 50px;
+        line-height: 75px;
+        width: 100%;
+    }
+
+    .video-journey span{
+        display: none;
+    }
+
+    .video-journey div:first-child{
+        margin-bottom: 40px;
+    }
+
+    .louvre-video{
+        height: 444px;
+        background-size: 100%;
+    }
+
+    .louvre-video button{
+        width: 152px;
+        height: 152px;
+        background-size: 100%;
+    }
+
+    .video-track{
+        height: 60px;
+    }
+
+    .video-track input[type=range]{
+        height: 5px;
+    }
+
+    .video-track input[type=range]::-webkit-slider-thumb{
+        height: 13px;
+        width: 13px;
+    }
+
+    #play-track{
+        height: 30px;
+        margin: 0 30px 0 40px;
+    }
+
+    #video-range{
+        width: 560px;
+        background-size: 100%;
+    }
+
+    #sound{
+        width: 26px;
+        height: 20px;
+        margin: 0 31px;
+        background-size: 100%;
+    }
+
+    #sound-range{
+        width: 140px;
+    }
+
+    #full-screen{
+        width: 26px;
+        height: 26px;
+        background-size: 100%;
+        margin-left: 30px;
+    }
+
+    .youtube-slider iframe{
+        width: 300px;
+        height: 170px;
+    }
+
+    .video-bg, .louvre-video-container{
+        width: 984px;
+        height: 504px;
+    }
+
+    #mainPlayButton{
+        width: 152px;
+        height: 152px;
+        background-size: 100%;
+    }
+
+
+    /*Gallery*/
+    .art-gallery{
+        padding-top: 60px;
+    }
+
+    .art-gallery h2{
+        margin-bottom: 60px;
+        font-size: 50px;
+        line-height: 75px;
+    }
+
+    .gallery-container img{
+        width: 100%;
+    }
+
+    .gallery-container{
+        height: 1265px;
+    }
+
+    .gradient{
+        width: 990px;
+        margin-top: 905px;
+    }
+
+    /*Tickets*/
+    #tickets{
+        padding: 60px 0;
+    }
+
+    .buy-tickets h2{
+        font-size: 50px;
+        line-height: 75px;
+        margin-bottom: 20px;
+    }
+
+    .buy-tickets > div{
+        margin-top: 60px;
+    }
+
+    .buy-tickets img{
+        width: 700px;
+        height: 440px;
+    }
+
+    .ticket-type{
+        display: none;
+    }
+
+    .amount{
+        margin-left: 80px;
+    }
+
+    .amount h3{
+        text-align: left;
+    }
+
+    .amount p{
+        margin: 29px 0 10px 0;
+    }
+
+    .amount div{
+        margin: 0;
+    }
+
+    .amount h4 {
+        margin: 25px 0 65px 0;
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    /*Contacts*/
+    #contacts{
+        padding: 60px 0;
+    }
+
+    .contacts h2{
+        font-size: 50px;
+        line-height: 75px;
+        margin-bottom: 20px;
+    }
+
+    .contacts > div{
+        margin-top: 60px;
+    }
+
+    .contacts img{
+        width: 694px;
+        height: 454px;
+    }
+
+    .contact-info h3{
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 35px;
+    }
+
+    .contact-info p{
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    #map{
+        width: 694px;
+        height: 454px;
+    }
+
+    /*Footer*/
+    footer{
+        padding-top: 60px;
+    }
+
+    footer nav > ul{
+        padding-right: 45px;
+    }
+
+
+    .social{
+        margin-left: 92px;
+    }
+
+    /*Booking*/
+    .booking-ticket{
+        width: 1024px;
+        height: 768px;
+        top: calc(50% - 768px/2);
+    }
+
+    .buy-now-modal{
+        left: calc(50% - 1024px/2) !important;
+    }
+
+    #modal-exit{
+        top: 20px;
+        left: 972px;
+    }
+}
+
+@media (max-width: 990px){
+    section > div,
+    header > div,
+    footer > div{
+        width: 728px;
+    }
+
+    header {
+        padding: 35px 0 34px 0;
+    }
+
+    .menu-list-active{
+        left: 0px!important;
+    }
+
+    #menu-list{
+        width: 768px;
+        box-sizing: border-box;
+        height: 861px;
+        padding-top: 10px;
+        margin: 0;
+    }
+
+    #menu-list ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-images{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 7px;
+    }
+
+    .menu-images img:first-child{
+        margin-bottom: 20px;
+    }
+
+    .menu-images img:nth-child(2){
+        margin-right: 20px;
+    }
+
+    .menu-images hr {
+        width: 658px;
+        height: 2px;
+        margin: 35px 0;
+        background: #FFFFFF;
+    }
+
+    #menu-list .social{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        width: 660px;
+    }
+
+    #menu-list .social ul{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 340px;
+    }
+
+    #menu-list .social ul li{
+        width: 48px;
+        height: 48px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #menu-list .social a{
+        width: 48px;
+        height: 48px;
+        margin: 0;
+    }
+
+
+    /*Welcome*/
+
+    #welcome > div{
+        flex-direction: column;
+    }
+
+    .welcome-text-part{
+        display: flex;
+        justify-content: center;
+        height: 210px;
+        width: 100%;
+    }
+
+
+    .welcome-main-text{
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .welcome-main-text h1{
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    #welcome p{
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 0;
+    }
+
+    .welcome-main-text a{
+        display: none;
+    }
+
+    .welcome-bg{
+        width: 728px;
+        height: 550px;
+    }
+
+    .slider-part{
+        justify-content: center;
+        margin: 120px 0 -20px 0;
+    }
+
+    .slider{
+        height: 100px;
+    }
+
+    #welcome-slide-num{
+        margin-left: 150px;
+    }
+
+    #welcome-carousel{
+        margin-left: 45px;
+    }
+
+    #welcome-arrows{
+        margin-left: 10px;
+    }
+
+    #welcome-slide-num span{
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    #welcome-carousel button{
+        width: 12px;
+        height: 12px;
+    }
+
+    .welcome-bg:before{
+        display: none!important;
+    }
+
+    /*Virtual*/
+
+    #tour{
+        padding: 40px 0 80px 0;
+    }
+
+    .virtual-tour h2{
+        font-size: 40px;
+        line-height: 60px;
+        margin-bottom: 20px;
+    }
+
+    .virtual-blocks img{
+        width: 280px;
+        height: 180px;
+    }
+
+    .virtual-blocks{
+        padding: 0 56px;
+    }
+
+    .virtual-blocks > a{
+        margin-top: 40px;
+        width: 280px;
+        height: 301px;
+    }
+
+    .virtual-blocks > a > h3{
+        font-size: 22px;
+        line-height: 24px;
+        letter-spacing: 3px;
+    }
+
+    .virtual-blocks > a > hr{
+        width: 150px;
+    }
+
+    .virtual-blocks > a > p{
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    /*Explore*/
+    .picture-explore{
+        padding: 40px 0;
+        flex-direction: column;
+    }
+
+    .picture-explore h2{
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .picture-explore hr{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .picture-explore div{
+        width: 100%;
+    }
+
+    .picture-explore p{
+        display: none;
+    }
+
+    .picture-explore img{
+        width: 728px;
+        height: 705px;
+        padding-top: 20px;
+    }
+
+    /*Video*/
+    #video{
+        padding: 40px 0 80px 0;
+    }
+
+    .video-journey h2{
+        font-size: 40px;
+        line-height: 60px;
+        width: 100%;
+    }
+
+    .video-journey span{
+        display: none;
+    }
+
+    .video-journey div:first-child{
+        margin-bottom: 20px;
+    }
+
+    .louvre-video{
+        height: 330px;
+        background-size: 100%;
+    }
+
+    .louvre-video button{
+        width: 80px;
+        height: 80px;
+        background-size: 100%;
+    }
+
+    .video-track{
+        height: 53px;
+        flex-wrap: wrap;
+    }
+
+    .video-track input[type=range]{
+        height: 4px;
+    }
+    #play-track{
+      margin: 0 35px 0 30px;
+        width: 23px;
+        height: 29px;
+        padding-bottom: 5px;
+    }
+
+    #video-range{
+        order:-1;
+        width: 100%;
+    }
+
+    #sound{
+        width: 27px;
+        height: 21px;
+        background-size: 100%;
+        margin: 0 35px 0 0;
+    }
+
+    #sound-range{
+        width: 486px;
+    }
+
+    #full-screen{
+        width: 27px;
+        height: 27px;
+        margin-left: 35px;
+        background-size: 100%;
+    }
+
+    .youtube-slider{
+        padding-top: 20px;
+    }
+
+    .youtube-slider iframe{
+        width: 354px;
+        height: 199px;
+    }
+
+    .youtube-slider iframe:last-child{
+        display: none;
+    }
+
+    .youtube-video-slider{
+        padding-top: 20px;
+    }
+
+    .video_dots{
+        width: 10px;
+        height: 10px;
+    }
+
+    .video-bg, .louvre-video-container{
+        width: 728px;
+        height: 329px;
+    }
+
+    #mainPlayButton{
+        width: 80px;
+        height: 80px;
+        background-size: 100%;
+    }
+
+    /*Gallery*/
+    .art-gallery{
+        padding-top: 40px;
+    }
+
+    .art-gallery h2{
+        font-size: 40px;
+        line-height: 60px;
+        margin-bottom: 40px;
+    }
+
+    .gallery-container div:last-child{
+        display: none;
+    }
+
+    .gallery-container div:first-child{
+        margin-right: 24px;
+    }
+
+    .gallery-container div:nth-child(2){
+       margin: 0;
+    }
+
+    .gallery-container{
+        height: 1080px;
+    }
+
+    .gallery-container img{
+        width: 100%;
+    }
+
+    .gradient{
+        width: 728px;
+        margin-top: 720px;
+    }
+
+    /*Tickets*/
+    #tickets{
+        padding: 40px 0;
+        margin-bottom: 300px;
+    }
+
+    .buy-tickets h2{
+        font-size: 40px;
+        line-height: 60px;
+        margin-bottom: 20px;
+    }
+
+    .buy-tickets > div{
+        margin-top: 40px;
+    }
+
+    .buy-tickets img{
+        width: 444px;
+        height: 340px;
+    }
+
+    .ticket-type{
+        display: none;
+    }
+
+    .amount{
+        margin-left: 45px;
+    }
+
+    .amount h3{
+        text-align: left;
+        margin-left: 15px;
+        padding-bottom: 14px;
+    }
+
+    .amount p{
+        margin: 25px 0 10px 15px;
+    }
+
+    .amount div{
+        width: 165px;
+        height: 50px;
+        margin: 5px 0 0 20px;
+    }
+
+    .amount h4{
+        margin: 39px 0 40px 15px;
+    }
+
+    .buy-ticket-btn{
+        margin-left: 15px;
+    }
+
+    /*Contacts*/
+
+    #contacts{
+        padding: 40px 0 62px 0;
+    }
+
+    .contacts > div{
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .contacts h2{
+        font-size: 40px;
+        line-height: 60px;
+        margin-bottom: 20px;
+    }
+
+    .contact-info h3{
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 40px;
+    }
+
+    .contact-info > p{
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 15px;
+    }
+
+    .contacts img{
+        width: 728px;
+        height: 476px;
+        margin-top: 25px;
+    }
+
+    #map{
+        width: 728px;
+        height: 476px;
+    }
+
+    /*Footer*/
+
+    footer{
+        padding-top: 50px;
+    }
+
+    .footer-main{
+        flex-wrap: wrap;
+    }
+
+    .footer-main .logo{
+        width: 300px;
+    }
+
+    .logo, .footer-main nav{
+        width: 50%;
+    }
+
+    .social{
+        width: 100%;
+        margin-left: 300px;
+    }
+
+    .footer-main nav{
+    padding-bottom: 30px;
+    }
+
+    .footer-main nav ul{
+        margin-right: 70px;
+    }
+
+    .footer-bottom{
+        padding: 30px 0 40px 0;
+    }
+
+    /*Booking*/
+    .booking-ticket{
+        width: 590px;
+        height: 1479px;
+        top: calc(50% - 1479px/2);
+    }
+
+    .booking-ticket > div{
+        flex-direction: column;
+        height: 100vh;
+        overflow-y: scroll;
+    }
+
+    .booking-main{
+        justify-self: center;
+        width: 90%;
+        margin-left: 30px;
+    }
+
+    .booking-ticket hr{
+        margin-bottom: 40px;
+    }
+
+    .date-time label{
+        width: 250px;
+    }
+
+    .entry-ticket hr{
+        margin-bottom: 5px;
+    }
+
+    .entry-ticket div p{
+        margin: 5px 0 18px 0;
+    }
+
+    .overview{
+        margin: 50px 0 0 30px;
+        padding: 25px 15px 0 15px;
+    }
+
+    .overview h3{
+        margin-top: 5px;
+    }
+
+    .overview-louvre{
+        margin-top: 0;
+    }
+
+    .total hr, .total > div{
+        width: 500px;
+    }
+
+    .total hr{
+        margin-bottom: 18px;
+    }
+
+    .card{
+        width: 500px;
+        grid-template-columns: 140px 220px 140px;
+    }
+
+
+    .buy-now-modal{
+        left: calc(50% - 590px/2) !important;
+    }
+
+    #modal-exit{
+       top: 130px;
+        left: 535px;
+    }
+
+
+    @media (max-width: 750px){
+        section > div,
+        header > div,
+        footer > div{
+            width: 380px;
+        }
+
+        header{
+            padding: 35px 0;
+        }
+
+        .logo svg{
+            width: 29px;
+            height: 16px;
+        }
+
+        .logo a span{
+            font-size: 16px;
+            line-height: 18px;
+        }
+
+        .menu ul{
+            display: none;
+        }
+
+        #menu-list{
+            width: 420px;
+            height: 544px;
+            padding-top: 2px;
+        }
+
+        .menu-list-active{
+            left: 0!important;
+        }
+
+        .menu-images img{
+            width: 95px;
+            height: 95px;
+        }
+
+        .menu-images img:first-child{
+            margin-bottom: 0;
+        }
+
+        .menu-images img:nth-child(2){
+            margin: 0 12px;
+        }
+
+        .menu-images hr{
+            width: 310px;
+            height: 1px;
+            margin: 20px 0 25px 0;
+        }
+
+        #menu-list .social{
+            width: 265px;
+            display: block;
+            margin-left: 20px;
+        }
+
+        #menu-list .social ul{
+            width: 260px;
+        }
+
+        /*Welcome*/
+
+        #welcome > div{
+            flex-direction: column;
+        }
+
+        .welcome-text-part{
+            display: flex;
+            justify-content: center;
+            margin-top: 5px;
+            height: 175px;
+            width: 100%;
+        }
+
+        .welcome-main-text{
+            padding-top: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .welcome-main-text h1{
+            font-size: 28px;
+            line-height: 40px;
+        }
+
+        #welcome p{
+            font-size: 16px;
+            line-height: 19px;
+            margin-bottom: 0;
+        }
+
+        .welcome-main-text a{
+            display: none;
+        }
+
+        .welcome-bg{
+            width: 380px;
+            height: 285px;
+        }
+
+        .slider-part{
+            margin-top: 100px;
+        }
+
+        .slider{
+            height: 80px;
+            margin-top: -100px;
+        }
+
+        #welcome-slide-num{
+            margin-left: 40px;
+        }
+
+        #welcome-carousel{
+            margin-left: 25px;
+        }
+
+        #welcome-arrows{
+            margin-left: 15px;
+        }
+
+        #welcome-carousel button{
+            width: 7px;
+            height: 7px;
+            margin-right: 10px;
+        }
+
+        #welcome-arrows button{
+            width: 20px;
+            height: 8px;
+        }
+
+        #welcome-slide-num span{
+            font-size: 16px;
+            line-height: 40px;
+        }
+
+        .welcome-bg:before{
+            display: none;
+        }
+
+        /*Virtual*/
+        #tour{
+            padding: 40px 0;
+        }
+
+        .virtual-tour h2{
+            font-size: 28px;
+            line-height: 40px;
+            margin-bottom: 18px;
+        }
+
+        .virtual-tour hr{
+            margin: 0;
+        }
+
+        .virtual-blocks{
+            padding: 0 50px;
+        }
+
+        .virtual-blocks a{
+            height: 295px;
+        }
+
+        .virtual-blocks > a > h3{
+            margin: 25px 0 10px 0;
+            font-size: 18px;
+            line-height: 20px;
+            letter-spacing: 5px;
+        }
+
+        /*Explore*/
+        .picture-explore{
+            padding: 40px 0;
+        }
+
+        .picture-explore h2{
+            font-size: 28px;
+            line-height: 40px;
+        }
+
+
+        .explore-comp-img img{
+            width: 380px;
+            height: 368px;
+        }
+
+        .explore-slider{
+            height: 368px;
+            width: 29px !important;
+            background-size: 100%;
+        }
+
+        /*Video*/
+        #video{
+            padding: 40px 0;
+        }
+
+        .video-journey h2{
+            font-size: 28px;
+            line-height: 40px;
+        }
+
+        .louvre-video{
+            width: 380px;
+            height: 182px;
+        }
+
+        .louvre-video button{
+            width: 50px;
+            height: 50px;
+            background-size: 100%;
+        }
+
+        .video-track{
+            height: 50px;
+            margin-top: -15px;
+            margin-bottom: 22px;
+        }
+
+        #mainPlayButton{
+            width: 50px;
+            height: 50px;
+            background-size: 100%;
+        }
+
+        #video-range{
+            margin-top: -4px;
+        }
+
+        .youtube-slider iframe{
+            width: 180px;
+            height: 101px;
+            margin-bottom: 20px;
+        }
+
+        #play-track{
+            width: 14px;
+            height: 15px;
+            background-size: 100%;
+            margin-left: 20px;
+            padding-bottom: 18px;
+        }
+
+        #sound{
+            width: 18px;
+            height: 14px;
+            background-size: 100%;
+        }
+
+        #sound-range{
+            width: 180px;
+        }
+
+        #full-screen{
+            width: 18px;
+            height: 18px;
+            background-size: 100%;
+        }
+
+        #arrow_left, #arrow_right{
+            width: 7px;
+            height: 8px;
+            background-size: 50%;
+        }
+
+        .video_dots{
+            width: 8px;
+            height: 8px;
+        }
+
+        .video-bg, .louvre-video-container{
+            width: 380px;
+            height: 172px;
+        }
+
+        /*Gallery*/
+        .art-gallery{
+            padding-top: 40px;
+        }
+
+        .art-gallery h2{
+            font-size: 28px;
+            line-height: 40px;
+        }
+
+        .gallery-container{
+            height: 640px;
+        }
+
+        .gradient{
+            width: 380px;
+            height: 110px;
+            margin-top: 530px;
+        }
+
+        /*Tickets*/
+        #tickets{
+            padding: 40px 0;
+        }
+
+        .buy-tickets h2{
+            font-size: 28px;
+            line-height: 40px;
+        }
+
+        .buy-tickets > div{
+            flex-direction: column;
+        }
+
+        .buy-tickets img{
+            width: 380px;
+            height: 160px;
+        }
+
+        .amount{
+            margin: 40px 0 0 80px;
+        }
+
+        .amount h3{
+            font-size: 16px;
+            line-height: 19px;
+            margin: 0 0 0 80px;
+        }
+
+        .amount p{
+            font-size: 16px;
+            line-height: 19px;
+        }
+
+        .amount > p{
+            margin: 0 0 15px 20px;
+        }
+
+        .amount > div{
+            width: 175px;
+            height: 50px;
+            margin-bottom: 25px;
+        }
+
+        .amount h4{
+            font-size: 16px;
+            line-height: 19px;
+            margin-left: 60px;
+        }
+
+        .buy-ticket-btn{
+            width: 175px;
+            height: 50px;
+            font-size: 16px;
+        }
+
+        /*Contacts*/
+        #contacts{
+            padding: 40px 0;
+        }
+
+        .contacts > div{
+            flex-direction: column;
+        }
+
+        .contacts h2{
+            font-size: 28px;
+            line-height: 40px;
+        }
+
+        .contact-info h3, .contact-info p{
+            font-size: 16px;
+            line-height: 19px;
+        }
+
+        .contacts img{
+            width: 380px;
+            height: 248px;
+        }
+
+        #map{
+            width: 380px;
+            height: 248px;
+        }
+
+        /*Footer*/
+
+        footer{
+            padding-top: 35px;
+        }
+
+        .footer-main{
+            padding-bottom: 40px;
+        }
+
+        .footer-main .logo{
+            margin-bottom: 40px;
+        }
+
+        .footer-main .logo svg{
+            width: 29px;
+            height: 16px;
+        }
+
+        .footer-main nav{
+            width:100%;
+            flex-wrap: wrap;
+            padding-bottom: 10px;
+        }
+
+        .footer-main nav > ul{
+            width:100%;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 0 0 30px 0;
+            padding-right: 0;
+        }
+
+        .footer-main nav > ul li{
+            font-size: 16px;
+            line-height: 19px;
+        }
+
+        .footer-main nav > ul li:nth-child(even){
+            margin: 0;
+        }
+
+        .social{
+            margin-left: 60px;
+        }
+
+        .social ul li:nth-child(even){
+            margin: 0 5px;
+        }
+
+        .rs-link {
+            display: none;
+        }
+
+
+        /*Booking*/
+        .booking-ticket{
+            width: 420px;
+            height: 1754px;
+            top: calc(50% - 1754px/2);
+        }
+
+        .booking-ticket > div{
+            flex-direction: column;
+            height: 100vh;
+            overflow-y: scroll;
+        }
+
+        .booking-main{
+            justify-self: center;
+            width: 85%;
+            margin-left: 30px;
+        }
+
+        .buy-now-modal{
+            left: calc(50% - 420px/2) !important;
+        }
+
+
+        .booking-ticket h2{
+            font-size: 32px;
+            line-height: 35px;
+        }
+
+        .date-time{
+            flex-wrap: wrap;
+        }
+
+        .date-time label{
+            width: 100%;
+        }
+
+        .date-time input::after{
+            margin-left: 280px;
+        }
+
+        .overview{
+            width: 360px;
+        }
+
+        .overview-louvre img{
+            width: 120px;
+            height: 96px;
+        }
+
+        .total > div{
+            width: 330px;
+        }
+
+        .total hr{
+            width: 330px;
+            margin-left: 0;
+        }
+
+        .card{
+            height: 443px;
+            grid-template-areas:
+                "front"
+                "back";
+            grid-template-rows: 209px 209px;
+            grid-template-columns: 330px;
+            row-gap: 25px;
+        }
+
+        .card-front{
+            grid-area: front;
+        }
+
+        .card-back{
+            grid-area: back;
+            border-radius: 10px;
+        }
+
+        .card-bottom{
+            display: none;
+        }
+
+        .cardholder input{
+            width: 290px;
+        }
+
+        .card-cv{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+
+    }
+
+
+}
