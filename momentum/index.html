@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="css/owfont-regular.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>momentum</title>
+</head>
+<body>
+  <header class="header">
+    <div class="player">
+      <div>
+        <p id="currentSongText"></p>
+      </div>
+      <div class="audio-range">
+        <span id="currTime"></span>
+        <input type="range" id="musicRange">
+        <span id="totalTime"></span>
+        <button id="sound"></button>
+        <input type="range" id="soundRange" min="0" max="1" step="0.01">
+      </div>
+      <div class="player-controls">
+        <button class="play-prev player-icon"></button>
+        <button class="play player-icon"></button>
+        <button class="play-next player-icon"></button>
+      </div>
+      <ul class="play-list"></ul>
+    </div>
+    <div class="weather">
+      <input type="text" class="city" placeholder="[City]" />
+      <i class="weather-icon owf"></i>
+      <div class="weather-error"></div>
+      <div class="description-container">
+        <span class="temperature"></span>
+        <span class="weather-description"></span>
+      </div>
+      <div class="wind"></div>
+      <div class="humidity"></div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon"></button>
+      <button class="slide-next slider-icon"></button>
+    </div>
+    <time class="time"></time>
+    <date class="date"></date>
+    <div class="greeting-container">
+      <span class="greeting"></span>
+      <input type="text" class="name" placeholder="[Enter name]"/>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="quote-container">
+    <button class="change-quote"></button>
+    <div>
+      <div class="quote"></div>
+      <div class="author"></div>
+    </div>
+    </div>
+    <div class="settings">
+      <button class="setting-btn"></button>
+    </div>
+  </footer>
+  <div class="hide modal-settings">
+    <p id="langText">Language:</p>
+      <button id="ru">Ru</button>
+      <button id="en">En</button>
+
+    <hr>
+    <p id="imgText">Image</p>
+    <div class="set-images">
+    <button id="unsplash">Unsplash API</button>
+    <button id="flickr">Flickr API</button>
+    <button id="github">Github</button>
+    </div>
+
+    <hr>
+
+    <p id="hideText">Hide</p>
+    <div>
+      <button id="hideWeather">Weather</button>
+      <button id="hideMusic">Music</button>
+      <button id="hideTime">Time</button>
+      <button id="hideDate">Date</button>
+      <button id="hideGreeting">Greeting</button>
+      <button id="hideQuote">Quote</button>
+    </div>
+
+  </div>
+  <script src="js/audioList.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
