@@ -22,7 +22,7 @@ body{
 }
 
 p, a{
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 100;
 }
 
@@ -46,6 +46,10 @@ h2{
 
 h3{
 	font-weight: normal;
+}
+
+.work-experience{
+	font-size: 16px;
 }
 
 .icons{
@@ -150,15 +154,6 @@ footer > div:last-child, header > div:last-child{
 	width: 100%;
 }
 
-.code-field{
-	background-color: #d9d9d9;
-	padding: 5px 10px;
-}
-
-.function_code{
-	padding-left: 20px;
-}
-
 .skills{
 	display: flex;
 	flex-wrap: wrap;
@@ -174,6 +169,10 @@ footer > div:last-child, header > div:last-child{
 
 .skills p{
 	margin: 0;
+}
+
+#efset-link{
+	color: #0a0f68;
 }
 
 .skills_range{
