@@ -2,4 +2,5 @@
 # [Louvre museum](https://anaistat.github.io/Portfolio/Louvre-museum/)
 # [Momentum](https://anaistat.github.io/Portfolio/momentum/)
 # [Suitsuply](https://anaistat.github.io/Portfolio/Suitsuply/)
-# [React app](https://immense-shore-42213.herokuapp.com/)
+# [Registration on React](https://immense-shore-42213.herokuapp.com/)
+# [App with reviews on React](https://reccom.herokuapp.com/)
