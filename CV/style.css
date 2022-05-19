@@ -1,0 +1,186 @@
+@font-face{
+	font-family: "Quicksand";
+	font-weight: 100;
+	src: url("fonts/Quicksand-Light.ttf");
+}
+
+@font-face{
+	font-family: "Quicksand";
+	font-weight: normal;
+	src: url("fonts/Quicksand-Regular.ttf");
+}
+@font-face{
+	font-family: "Quicksand";
+	font-weight: bold;
+	src: url("fonts/Quicksand-Medium.ttf");
+}
+
+body{
+	margin: 0;
+	color: #ffffff;
+	font-family: Quicksand, serif;
+}
+
+p, a{
+	font-size: 20px;
+	font-weight: 100;
+}
+
+a{
+	color: #a9a1c7;
+	text-decoration: none;
+}
+
+h1{
+	color: #000000;
+	font-size: 82px;
+	margin: 0;
+	text-align: left;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 36px;
+	font-weight: normal;
+}
+
+h3{
+	font-weight: normal;
+}
+
+.work-experience{
+	font-size: 16px;
+}
+
+.icons{
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+.bg-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(180deg, rgba(166,170,171,1) 0%, rgba(100,102,102,1) 100%);
+}
+
+main{
+	width: 1000px;
+	margin: 50px 0;
+	background-color: #ededed;
+	box-shadow: 0px 0px 30px 25px rgba(36, 36, 36, 0.2);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+main > div{
+	padding: 0 25px 25px 25px;
+	box-sizing: border-box;
+}
+
+header, footer{
+	width: 100%;
+	display: flex;
+}
+
+.my-photo{
+	padding: 15px;
+}
+
+.my-photo img{
+	width: 290px;
+}
+
+.my-name{
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 30px 0 0 30px;
+}
+
+.my-name h1{
+	height: 50%;
+}
+
+.my-name h1:first-child{
+	font-weight: 100;
+	margin-bottom: -160px;
+}
+
+footer a{
+	text-decoration: underline;
+	display: block;
+}
+
+footer > div, header > div{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+footer > div:first-child, header > div:first-child{
+	width: 36%;
+	background-color: #121212;
+}
+
+footer > div:last-child, header > div:last-child{
+	width: 64%;
+	color: #000000;
+}
+
+.contact-info-block{
+	width: 36%;
+	background-color: #121212;
+}
+
+.contact-info-block p{
+	color: #c6c6c6;
+}
+
+.contact-info-block > section{
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.main-info{
+	width: 64%;
+	color: #000000;
+	padding-right: 50px;
+}
+
+.main-info > section{
+	width: 100%;
+}
+
+.skills{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.skills > section{
+	width: 50%;
+}
+
+.skills h2{
+	width: 100%;
+}
+
+.skills p{
+	margin: 0;
+}
+
+#efset-link{
+	color: #2c0a68;
+}
+
+.skills_range{
+	width: 80px;
+	background-color: #000000;
+	margin-left: 10px;
+}
+
+.contacts ul{
+	list-style: none;
+	padding: 0;
+}
