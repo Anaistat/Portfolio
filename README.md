@@ -4,3 +4,4 @@
 # [Suitsuply](https://anaistat.github.io/Portfolio/Suitsuply/)
 # [Registration on React](https://immense-shore-42213.herokuapp.com/)
 # [App with reviews on React](https://reccom.herokuapp.com/)
+# [Settings test page](https://anaistat.github.io/techcore_test/)
